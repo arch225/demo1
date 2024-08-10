@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return "Testing Sucessful"
 
-@app.l1('/')
+@app.l1('/l1')
 def l1():
     return "How about one more 'Hello World!'"
 
